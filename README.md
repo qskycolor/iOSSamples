@@ -1,2 +1,2 @@
 # iosSamples
-iso study test
+iOS study test
