@@ -195,6 +195,12 @@ int main(int argc, const char * argv[]) {
         NSArray*  sepa = [title componentsSeparatedByString:@"t"];
         NSLog(@"========separate array==%@", sepa);
         
+        NSString* caseStr = @"Hello222WorlD";
+        NSString* incaseStr = @"hello222world";
+        //caseInsensitiveCompare返回NSComparisonResult: NSOrderedAscending = -1L, NSOrderedSame, NSOrderedDescending
+        //不区分大小写的比较
+        NSLog(@"compare result = %ld", [caseStr caseInsensitiveCompare:incaseStr]);
+        
     }
     return 0;
 }
