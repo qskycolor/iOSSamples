@@ -1,2 +1,2 @@
-# iosSamples
-iOS study test
+# iOSSamples
+iOS study
